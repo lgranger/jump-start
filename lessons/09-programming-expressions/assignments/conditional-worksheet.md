@@ -11,12 +11,14 @@ cake = false
 
 if cookies == true
    print “OMG COOKIEZ”
-if cake == true
+elsif cake == true
    print “OMG CAKE!”
 else
    print “WHATEVZ DESSERTZ.”
 end
 ```
+
+`=>"OMG COOKIEZ"`
 
 2.
 ```ruby
@@ -31,6 +33,9 @@ else
    print “They’re the same!”
 end
 ```
+
+`=>"Ada is younger"`
+
 3.
 ```ruby
 pet = “cat”
@@ -51,6 +56,8 @@ elsif food == “ice cream”
 end
 ```
 
+`=>"here kitty""yum"`
+
 
 4.
 ```ruby
@@ -68,6 +75,8 @@ else
 end
 ```
 
+`=>"x = y"`
+
 5.
 ```ruby
 x = 7
@@ -83,6 +92,7 @@ else
    print “y is bigger”
 end
 ```
+`=>"x = y"`
 
 6.
 ```ruby
@@ -99,3 +109,5 @@ if x == y
    print “x = y”
 end
 ```
+
+`=>"x is bigger""x = y"`
